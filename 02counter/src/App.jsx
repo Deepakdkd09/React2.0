@@ -14,10 +14,10 @@ function App() {
 
 
     //counter = counter + 1;
-    setCounter(counter + 1)   //its not important to take setCounter as variable instead of it we can take anything.
-    setCounter(counter + 1)   //its not important to take setCounter as variable instead of it we can take anything.
-    setCounter(counter + 1)   //its not important to take setCounter as variable instead of it we can take anything.
-    setCounter(counter + 1)   //its not important to take setCounter as variable instead of it we can take anything.
+    setCounter(prevCounter => prevCounter + 1)   //its not important to take setCounter as variable instead of it we can take anything.
+    setCounter(prevCounter => prevCounter + 1)   //its not important to take setCounter as variable instead of it we can take anything.
+    setCounter(prevCounter => prevCounter + 1)   //its not important to take setCounter as variable instead of it we can take anything.
+    setCounter(prevCounter => prevCounter + 1)   //its not important to take setCounter as variable instead of it we can take anything.
     
   }
 
